@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply h-screen overflow-auto text-gray-800;
+}
+
+.html2pdf__overlay h1 {
+    @apply text-2xl my-4;
+}
+
+.html2pdf__overlay h2 {
+    @apply text-xl my-4;
+}
+
+.html2pdf__overlay h3 {
+    @apply text-lg my-2;
+}
+
+.html2pdf__overlay b {
+    @apply font-bold;
+}
+
+.html2pdf__overlay i {
+    @apply italic;
+}
+
+.html2pdf__overlay p {
+    @apply my-2;
+}
